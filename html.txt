@@ -1,0 +1,311 @@
+・一番大きい見出しを作るために必要な要素は何でしょう
+<h1> ←-- 答え
+<h6>
+<head>
+<heading>
+
+・改行を作るために必要な要素は何でしょう
+<br>　←-- 答え
+<lb>
+<break>
+
+・テキストを太くするために使う要素は何でしょう
+<i> ←-- 強いていうならこれ(太くするというより強調するって感じ)
+<em>
+<italic>
+
+・ハイパーリンクを作るために正しい要素はどれでしょう
+<a href=“http://www.w3schools.com”>W3Schools</a>  ←-- 答え
+<a name=“http://www.w3schools.com”>W3Schools.com</a>
+<a>http://www.w3schools.com</a>
+<a url=“http://www.w3schools.com”>W3Schools.com</a>
+
+・どの記号が終了タグを示しますか？
+/ ←-- 答え
+<
+^
+*
+
+・どれが新規ウィンドウを開けるようになるタグでしょう
+<a href=“url” target=“_blank”>   ←-- 答え
+<a href=“url” new>
+<a href=“url” target=“new”>
+
+・どれがテーブルの全ての要素でしょう
+<table><tr><td>   ←-- 答え
+<thead><body><tr>
+<table><head><tfoot>
+<table><tr><tt>
+
+・インライン要素は通常新しい行から始まらない
+True　 ←-- 答え
+False
+
+・番号つきリストを作るのに必要な要素はどれでしょう
+<ol>  ←-- 答え
+<dl>
+<list>
+<ul>
+
+・箇条書きのようなリストを作るのに必要な要素はどれでしょう
+<ul>   ←-- 答え
+<list>
+<ol>
+<dl>
+
+・チェックボックスを作るのに正しいのはどれでしょう
+<input type=“checkbox”>   ←-- 答え
+<input type=“check”>
+<check>
+<checkbox>
+
+・テキスト入力を作るのに正しいのはどれでしょう
+<input type=“text”>   ←-- 答え
+<textinput type=“text”>
+<textfield>
+<input type=“textfield”>
+
+・ドロップダウンリストを作るのに正しいのはどれでしょう
+<input type=“dropdown”>  
+<list>
+<select>   ←-- 答え
+<input type=“list”>
+
+・テキストエリアを作るのに必要なのはどれでしょう
+<input type=“textarea”>   ←-- 答え
+<textarea>
+<input type=“textbox”>
+
+・画像を挿入する要素として正しいものはどれでしょう
+<img src=“image.gif” alt=“MyImage”>   ←-- 答え
+<img alt=“MyImage”>image.gif</img>
+<image src=“image.gif” alt=“MyImage”>
+<img href=“image.gif” alt=“MyImage”>
+
+・<iframe>はウェブページの中にウェブページを表示させるために使うか
+True   ←-- 答え
+False
+There is no such thing as an <iframe>
+
+・コメントする場合の始めは「<!—」で終わりは「—>」でしょうか
+True  ←-- 答え
+False
+
+・ブロック要素は通常新しい行から始まらない
+False   ←-- 答え
+True
+
+・タイトルを定義するのはどの要素でしょう
+<title>   ←-- 答え
+<head>
+<meta>
+
+・もし画像が読み込めないとき、どの属性が画像の代わりのテキストを表示させてくれるでしょう
+alt   ←-- 答え
+title
+longdesc
+src
+
+・どのDOCTYPEがHTML5において適切でしょうか
+<!DOCTYPE html>   ←-- 答え
+<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 5.0//EN” “http://www.w3.org/TR/html5/strict.dtd”>
+<!DOCTYPE HTML5>
+
+・どの要素がフッターを示すのために適切でしょう
+<footer>   ←-- 答え
+<section>
+<bottom>
+
+・HTMLにSVG要素をHTMLに直接組み込むのは可能でしょうか
+True   ←-- 答え
+False
+
+・ビデオファイルを再生するのに適切な要素は何でしょうか
+<media>  
+<video>   ←-- 答え
+<movie>
+
+・オーディオファイルを再生するために必要な要素は何でしょうか
+<audio>   ←-- 答え
+<sound>
+<mp3>
+
+・グローバル属性で「contenteditable」は何に使うでしょう
+コンテクストメニューの要素で、そのメニューは要素の上で右クリックをしたときに表示される
+文字列内で最初に見つかったコンテンツの出現位置を返す
+コンテンツをアップデートする
+要素のコンテンツを編集可能にするかどうかを指定します　←-- 答え
+
+・HTMLの「onblur」と「onfocus」は
+event属性　←-- 答え
+style属性
+HTML要素
+
+・SVGによって定義されているGraphicsのフォーマットはどれか
+XML
+CSS　 ←-- 答え
+HTML
+
+・<canvas>要素は何に使われるか
+グラフィックを描くため　 ←-- 答え
+ドラッグ可能な要素を作るため
+データベースのレコードを表示するため
+MySQLのデータを操作するため
+
+・インプットが埋まっていないと行けないと提示するために必要なHTML属性はどれか
+required  ←-- 答え
+validate
+placeholder
+formvalidate 
+
+・どのインプットタイプがスライドコントローラーを定義するか
+slider  
+controls
+search
+range  ←-- 答え
+
+・range内のスカラー値を表示させるのにはどの要素を使うでしょう
+<range>  
+<measure>
+<meter>  ←-- 答え
+<gauge>
+
+・ナビゲーションを定義するのはどの要素でしょう
+<nav>  ←-- 答え
+<navigation>
+<navigate>
+
+・<aside> 要素で定義されるのはなにか
+ページコンテンツの端のコンテンツ ←-- 答え
+ページの左側に表示されるナビゲーションリスト
+ASCII文字セットで、インターネット上のコンピューター間で情報を送信する
+
+・どの要素がヘッダーを示すのために適切でしょう
+<header>  ←-- 答え
+<head>
+<top>
+<section>
+
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+追加は選択肢がタグのもの
+
+文字コードの指定をできる問題
+タグの使い方がわかっているかどうかを問うものを作る
+
+
+例えば以下のような
+
+・どのDOCTYPEがHTML5において適切でしょうか
+<!DOCTYPE html>  
+<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 5.0//EN” “http://www.w3.org/TR/html5/strict.dtd”>
+<!DOCTYPE HTML5>
+
+
+・画像を挿入する要素として正しいものはどれでしょう
+<img src=“labot.gif” alt=“MyImage”>  
+<img option=“MyImage”>image.gif</img>
+<image src=“image.gif” ctrl=“MyImage”>
+<img href=“image.gif” type=“MyImage”>
+
+
+・range内のスカラー値を表示させるのにはどの要素を使うでしょう
+<range>  
+<measure>
+<meter>  
+<gauge>
+
+あるタグ2つ、存在しないタグ2つ
+
+
+
+
+ A
+<A> …… リンクをはる、リンクの出発点・到達点を指定する
+
+ B
+<B> …… テキストを太字にする
+<BLOCKQUOTE>･･･引用・転載であることを表す
+<BODY> …… 文書の本体を表す
+<BR> …… 改行する
+<BUTTON> …… ボタンを作成する
+
+
+ D
+<DD> …… 定義した用語の説明を記述する
+<DEL> …… 削除された部分であることを示す
+<DFN> …… 定義する用語を明示する
+<DIR> …… リストを表示する
+<DIV> …… ひとかたまりの範囲として定義する（ブロック要素）
+<DL> …… 定義リストであることを表す
+<DT> …… 定義する用語を表す
+
+ E
+<EM> …… 強調する
+
+ F
+<FORM> …… 入力フォームを作る
+
+ H
+<H1>～<H6> …… 見出しを付ける
+<HEAD> …… 文書のヘッダ情報を表す
+<HR> …… 横罫線を引く
+<HTML> …… HTML文書であることを宣言する
+
+ I
+<I> …… テキストを斜体（イタリック）にする
+<IFRAME> …… インラインフレームを作る
+<IMG> …… 画像を表示する
+<INPUT> …… フォームの構成部品（入力欄・ボタン等）を作成する
+<INPUT type="submit"> …… フォームの送信ボタン・リセットボタンを作成する
+<INPUT type="image"> …… フォームの画像ボタンを作成する
+<INPUT type="button"> …… フォームの汎用ボタンを作成する
+<BUTTON> …… ボタンを作成する
+<INPUT type="text"> …… 一行テキストボックスを作成する
+<INPUT type="password"> …… パスワード入力欄を作成する
+<INPUT type="radio"> …… ラジオボタンを作成する
+<INPUT type="checkbox"> …… チェックボックスを作成する
+<INPUT type="hidden"> …… 非表示データを送信する
+<INPUT type="file"> …… サーバーにファイルを送信する
+ L
+<LABEL> …… フォーム部品と項目名（ラベル）を関連付ける
+<LI> …… リストの項目を記述する
+<LINK> …… 関連する文書ファイルを指定する
+
+ M
+<META> …… その文書に関する情報（メタ情報）を指定する
+ O
+<OL> …… 順序のあるリストを表示する
+<OPTION> …… セレクトボックスの選択肢を指定する
+ P
+<P> …… ひとつの段落（パラグラフ）であることを表す
+ Q
+<Q> …… 引用・抜粋であることを表す
+ S
+<S> …… 打ち消し線を引く
+<SCRIPT> …… 文書にスクリプトを埋め込む
+<SELECT> …… セレクトボックスを作成する
+<SMALL> …… テキストのサイズをひとまわり小さくする
+<SPAN> …… ひとかたまりの範囲として定義する（インライン要素）
+<STRONG> …… 強調する
+<STYLE> …… スタイルシートを記述する
+ T
+<TABLE> …… テーブル（表）を作成する
+<TBODY> …… テーブル（表）のボディ部分を定義する
+<TD> …… テーブル（表）のデータセルを作成する
+<TEXTAREA> …… 複数行の入力フィールドを作成する
+<TFOOT> …… テーブル（表）のフッタ行を定義する
+<TH> …… テーブル（表）の見出しセルを作成する
+<THEAD> …… テーブル（表）のヘッダ行を定義する
+<TITLE> …… 文書にタイトルをつける
+<TR> …… テーブル（表）の横方向の一行を定義する
+<TT> …… 等幅フォントで表示する
+
+ U
+<U> …… テキストに下線（アンダーライン）を引く
+<UL> …… 順序のないリストを表示する
+
+ 記号
+<!DOCTYPE> …… ドキュメントタイプを宣言する
+<!-- --> …… ソース中にコメントを入れる
