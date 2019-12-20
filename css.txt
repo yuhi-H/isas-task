@@ -1,0 +1,219 @@
+・HTMLに外部からCSSを反映させかたとして適切なのはどれか
+<link rel=“stylesheet” type=“text/css” href=“mystyle.css”>  ←-- 答え
+<style src=“mystyle.css”>
+<stylesheet>mystyle.css</stylesheet>
+
+・HTMLのどこに外部ファイルを読み込む記述をしますか
+<body>
+ドキュメントの最後
+<head> ←-- 答え
+
+・HTML内でCSSを定義するにはどんな要素を書く必要があるか
+<script>
+<style>  ←-- 答え
+<css>
+
+・インラインstyleを定義するにはどのHTML要素をつかうべきか
+styles
+style  ←-- 答え
+font
+class
+
+・CSSの文法として正しいのはどれか
+{body;color:black;}
+{body:color=black;}
+body {color: black;}  ←-- 答え
+body:color=black;
+
+・CSSにコメントを挿入する方法で正しいのはどれか
+/* this is a comment */  
+' this is a comment’
+// this is a comment //
+// this is a comment  ←-- 答え
+
+
+・背景色を変えるのにはどのプロパティを使うでしょう
+color
+bgcolor
+background-color  ←-- 答え
+
+・全てのh1要素に背景色を加えるにはどうすればいいでしょう
+h1 {background-color:#FFFFFF;}  ←-- 答え
+h1.all {background-color:#FFFFFF;}
+all.h1 {background-color:#FFFFFF;}
+
+・テキストカラーを変えるのにはどのプロパティを使うでしょう
+fgcolor
+text-color
+color  ←-- 答え
+
+・テキストサイズを変えるにはどのプロパティを使うでしょうか
+font-size  ←-- 答え
+font-style
+text-size
+text-style
+
+・全てのp要素を太くするCSSの文法として正しいものはどれでしょう
+<p style=“font-size:bold;“>
+p {text-size:bold;}
+<p style=“text-size:bold;“>
+p {font-weight:bold;}  ←-- 答え
+
+・ハイパーリンクのアンダーラインを消すにはどうすればいいでしょうか
+a {text-decoration:none;}  ←-- 答え
+a {text-decoration:no-underline;}
+a {underline:none;}
+a {decoration:no-underline;}
+
+・テキストの各単語を大文字で始めるにはどうすればよいか
+text-style:capitalize  ←-- 答え
+text-transform:capitalize  
+You can’t do that with CSS
+transform:capitalize
+
+・フォントを変えるためのプロパティはどれでしょう
+font-family  ←-- 答え
+font-weight
+font-style
+
+・太字にするためのプロパティはなんでしょう
+font:bold;
+font-weight:bold;   ←-- 答え
+style:bold;
+
+・ボーダー大きさを以下のようにするにはどうすればいいでしょう
+top border 10pixels, bottom border 5pixels, left border 20pixels, right border 1pixels
+
+border-width:10px 20px 5px 1px;
+border-width:10px 5px 20px 1px;  
+border-width:5px 20px 10px 1px;
+border-width:10px 1px 5px 20px; ←-- 答え
+
+・左のmarginを変えるには、どのプロパティを使うでしょうか
+padding-left
+indent
+margin-left  ←-- 答え
+
+・paddingプロパティを使うとき、「-」の値は使えるでしょうか
+No  
+Yes  ←-- 答え
+
+・□でリストを作るためにはどうすればよいでしょう
+list-type: square;
+list-style-type: square;  ←-- 答え
+list: square;
+
+・「id”demo”」を選択するにはどうすればよいでしょう
+demo
+
+demo
+#demo  ←-- 答え
+.demo
+
+・testクラスを選択する要素はどれか
+#test
+　　･test
+.test  ←-- 答え
+test
+
+・div要素内の全てのp要素を選択するにはどうすればよいでしょうか
+div + p
+div p  ←-- 答え
+div.p
+
+・セレクターをどのようにグループ化しますか
+各セレクターを＋で区切る
+各セレクターを , で区切る  ←-- 答え
+各セレクターをスペースで区切る
+
+・positionプロパティのデフォルト値は何か
+fixed
+absolute
+relative
+static ←-- 答え
+
+
+
+-------------------------------------
+追加文
+
+B
+background …… 背景に関する指定をまとめて行う
+background-color …… 背景色を指定する
+background-image …… 背景画像を指定する
+background-repeat …… 背景画像のリピートの仕方を指定する
+border …… ボーダーのスタイル・太さ・色を指定する
+border-bottom …… 下ボーダーのスタイル・太さ・色を指定する
+border-bottom-color …… 下ボーダーの色を指定する
+border-bottom-style …… 下ボーダーのスタイルを指定する
+border-bottom-width …… 下ボーダーの太さを指定する
+border-color …… ボーダーの色を指定する
+border-left …… 左ボーダーのスタイル・太さ・色を指定する
+border-left-color …… 左ボーダーの色を指定する
+border-left-style …… 左ボーダーのスタイルを指定する
+border-left-width …… 左ボーダーの太さを指定する
+border-right …… 右ボーダーのスタイル・太さ・色を指定する
+border-right-color …… 右ボーダーの色を指定する
+border-right-style …… 右ボーダーのスタイルを指定する
+border-right-width …… 右ボーダーの太さを指定する
+border-spacing …… セルのボーダーの間隔を指定する
+border-top …… 上ボーダーのスタイル・太さ・色を指定する
+border-top-color …… 上ボーダーの色を指定する
+border-top-style …… 上ボーダーのスタイルを指定する
+border-top-width …… 上ボーダーの太さを指定する
+border-width …… ボーダーの太さを指定する
+bottom …… 下からの配置位置（距離）を指定する
+ C
+color …… 文字色（前景色）を指定する
+cursor …… カーソルの形状を指定する
+ D
+display …… 要素の表示形式（ブロック・インライン・フレックス等）を指定する
+ F
+float …… 左または右に寄せて配置する
+font …… フォントに関する指定をまとめて行う
+font-family …… フォントの種類を指定する
+font-size …… フォントのサイズを指定する
+font-stretch …… フォントを縦長・横長にする
+font-style …… フォントをイタリック体・斜体にする
+font-weight …… フォントの太さを指定する
+ H
+height …… 高さを指定する
+ L
+left …… 左からの配置位置（距離）を指定する
+letter-spacing …… 文字の間隔を指定する
+line-height …… 行の高さを指定する
+ M
+margin …… マージンに関する指定をまとめて行う
+margin-bottom …… 下マージンを指定する
+margin-left …… 左マージンを指定する
+margin-right …… 右マージンを指定する
+margin-top …… 上マージンを指定する
+max-height …… 高さの最大値を指定する
+max-width …… 幅の最大値を指定する
+min-height …… 高さの最小値を指定する
+min-width …… 幅の最小値を指定する
+ O
+overflow …… はみ出た要素の表示方法を指定する
+ P
+padding …… パディングに関する指定をまとめて行う
+padding-bottom …… 下パディングを指定する
+padding-left …… 左パディングを指定する
+padding-right …… 右パディングを指定する
+padding-top …… 上パディングを指定する
+position …… ボックスの配置方法（基準位置）を指定する
+ R
+right …… 右からの配置位置（距離）を指定する
+ T
+text-align …… 行揃えの位置・均等割付を指定する
+text-decoration …… テキストの下線・上線・打ち消し線・点滅を指定する
+text-shadow …… テキストに影をつける
+top …… 上からの配置位置（距離）を指定する
+ V
+vertical-align …… 縦方向の揃え位置を指定する
+ W
+width …… 幅を指定する
+ Z
+z-index …… 重なりの順序を指定する
+
+ コメント
+/*コメント*/ …… CSSソース中にコメントを入れる
